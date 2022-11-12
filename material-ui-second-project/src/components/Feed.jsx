@@ -1,9 +1,19 @@
 import { Box } from "@mui/system"
+import * as React from 'react';
+import Post from './Post'
 
 
-const Feed=()=>{
-    return(
-        <Box bgcolor="pink" flex={4} p={2}>Feed</Box>
+const Feed = () => {
+    return (
+        <Box flex={4} p={2}>
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
+        </Box>
     )
 }
 
