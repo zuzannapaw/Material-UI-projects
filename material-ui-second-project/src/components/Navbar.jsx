@@ -40,7 +40,7 @@ const [open,setOpen] = useState(false);
     return (
         <AppBar position="stick">
             <StyledToolbar>
-                <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>LAMA DEV</Typography>
+                <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>DOGGO DEV</Typography>
                 <Pets sx={{ display: { xs: "block", sm: "none" } }} />
                 <Search><InputBase placeholder={"search..."} /></Search>
                 <Icons>

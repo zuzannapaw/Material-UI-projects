@@ -82,7 +82,7 @@ const Rightbar = () => {
                 <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
                     <ListItem alignItems="flex-start">
                         <ListItemAvatar>
-                            <Avatar alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/3.jpg" />
+                            <Avatar sx={{outline: "2px solid green"}} alt="Remy Sharp" src="https://material-ui.com/static/images/avatar/3.jpg" />
                         </ListItemAvatar>
                         <ListItemText
                             primary="Brunch this weekend?"
@@ -126,7 +126,7 @@ const Rightbar = () => {
                     <Divider variant="inset" component="li" />
                     <ListItem alignItems="flex-start">
                         <ListItemAvatar>
-                            <Avatar alt="Cindy Baker" src="https://material-ui.com/static/images/avatar/7.jpg" />
+                            <Avatar sx={{outline: "2px solid green"}} alt="Cindy Baker" src="https://material-ui.com/static/images/avatar/7.jpg" />
                         </ListItemAvatar>
                         <ListItemText
                             primary="Oui Oui"
